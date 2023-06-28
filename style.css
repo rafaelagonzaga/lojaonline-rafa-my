@@ -1,4 +1,6 @@
-@import url(“styles/header.css”);
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
 :root{
     --cor-de-fubdo:#d100ae;
 }
@@ -6,7 +8,7 @@ body{
     background-color: aliceblue;
 }
 
-::root {
+:root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
 }
@@ -125,9 +127,7 @@ body {
                                 background: url("../img/Lupa.svg") no-repeat;
                                 background-position: 1em;
                           }
-                          @import url("styles/header.css");
-                          @import url("styles/banner.css");
-                          @import url("styles/carrossel.css");
+
                          
                           .carrossel__titulo {
                             color: var(--laranja);
@@ -138,3 +138,13 @@ body {
                             font-weight: 700;
                             padding: 1em 0 0.5em 0;
                          }
+                         <script src=”https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.
+
+                                  js”></script>
+                                        <script>
+const swiper = new Swiper(‘.swiper’, {
+speed: 400,
+spaceBetween: 100,
+});
+</script>
+</body>
