@@ -23,7 +23,7 @@ body {
     display: inline-block;
     }
       
-    .cabeçalho {
+.cabeçalho {
         background-color: var(--branco);
         display: flex;
             justify-content: space-between;
@@ -33,12 +33,15 @@ body {
         }
 
 
-        .container__botao:checked ~ .lista-menu {
+.container__botao:checked ~ 
+
+ .lista-menu {
             display: block;
             display: flex;
             align-items: center;
             }
-            .lista-menu {
+
+.lista-menu {
                 display: none;
                 position: absolute;
                 top: 100%;
@@ -46,15 +49,15 @@ body {
                 background-color: var(--branco);
                 }
                            
-                    :root {
+:root {
                         --cor-de-fundo: #EBECEE;
                         --branco: #FFFFFF;
                         --laranja: #EB9B00;
                 }
 
-                .lista-menu__titulo {
+.lista-menu__titulo {
                       color: var(--laranja);
-                      :root {
+:root {
                         --cor-de-fundo: #EBECEE;
                         --branco: #FFFFFF;
                         --laranja: #EB9B00;
@@ -62,28 +65,28 @@ body {
                         --fonte-principal: "Poppins";
                         }
                         
-                          .lista-menu__link {
+.lista-menu__link {
                                background: var(--azul-degrade);
                                -webkit-background-clip: text;
                               -webkit-text-fill-color: transparent;
                              background-clip: text;
                               text-transform: uppercase;
                             }
-                               .lista-menu {
+.lista-menu {
                                      display: none;
                                    position: absolute;
                                    top: 100%;
                                  width: 60vw;
                          }
 
-                                   body {
+        body {
                                    background-color: var(--cor-de-fundo);
                                    font-family: var(--fonte-principal);
                                    font-size: 16px;
                                  font-weight: 400;
                             }
 
-                                    .lista-menu__titulo {
+.lista-menu__titulo {
                                        color: var(--laranja);
                                        font-weight: 700;
                                                }
@@ -99,17 +102,17 @@ body {
                         @import url("styles/header.css");
                         @import url("styles/banner.css");
 
-                        .banner__titulo {
+ .banner__titulo {
                             font-size: 18px;
                             font-weight: 700;
                               
                             }
-                                .banner__texto {
+.banner__texto {
                                     font-weight: 500;
                                     margin: 1em 0;
                                     }
                                
-                          .banner__pesquisa {
+.banner__pesquisa {
                               background-color: transparent;
                               border: 1px solid var(--branco);
                               color: var(--branco);
