@@ -1,0 +1,12 @@
+    @media screen and (min-widt: 768px) {
+        .container_titulo{
+            font-size: 30px;
+            display: inline-block;
+        }
+        
+        .container_titulo{
+            font-weight: 400;
+        }
+    }
+    
+}
